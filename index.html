@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>nights before Elaria</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!--Связаны-->
+    <audio id="background-music" loop preload="auto">
+      <source src="./kissandtell.m4a" type="audio/mpeg" />
+      Браузер не поддерживает воспроизведение аудио(
+    </audio>
+
+    <div class="background-container" id="background-container">
+      <div class="corner top-right"></div>
+      <div class="corner bottom-left"></div>
+
+      <div class="content" id="content-block">
+        <h1 class="fade-in">И ночью...</h1>
+        <p class="fade-in delay-1s">
+          Здесь нет проблем и суеты <br />
+          Лишь я и ты, Elaria, наши мечты <br />
+          Даже в моменты темноты <br />
+          Я поряд, не страшнi чорти
+        </p>
+      </div>
+
+      <footer class="footer">
+        <button id="change-moment-btn" class="hidden-btn">
+          Сменить момент
+        </button>
+        <p>by Соняфи</p>
+      </footer>
+    </div>
+
+    <div id="audio-overlay">
+      <p>
+        Прибавь звук, я подготовил для тебя сюрприз)<br />
+        Нажми, как будешь готова
+      </p>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,1 @@
+Copyright (c) Gophmann A.L., 1990. All rights reserved.
