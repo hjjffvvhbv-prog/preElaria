@@ -31,6 +31,20 @@ body,
   overflow: hidden;
 }
 
+.overlay-text {
+  opacity: 0;
+  animation: overlayFadeIn 0.8s 0.5s ease-out forwards;
+}
+
+@keyframes overlayFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .background-container {
   position: relative;
   background-image: url("../bg.png");
